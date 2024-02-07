@@ -6,7 +6,9 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "node --watch-path ./ index.js"
+    "dev": "node --watch-path ./ index.js",
+    "watch": "docker compose watch --quiet",
+    "logs": "docker compose logs --follow node-http"
   },
   "keywords": [],
   "author": "Ruan Silva",
